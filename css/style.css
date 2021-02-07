@@ -1,0 +1,270 @@
+/* :root {
+  --primary-color: rgba(30, 190, 165, 0.45);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header and navigation here */
+.main_header {
+  background-color: rgba(30, 190, 165, 0.95);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  position: fixed;
+  /* overflow: hidden; */
+  top: 0;
+  width: 100%;
+}
+
+.main_body {
+  margin-top: 40px;
+}
+.main_nav span ul {
+  float: left;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.logo img {
+  width: 30px;
+  height: 20px;
+  padding-right: 4px;
+}
+
+.logo .flat_text {
+  color: #fcf2cc;
+}
+
+.main_nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main_nav ul li a:hover {
+  color: #c2ede7;
+  font-style: italic;
+}
+
+.main_nav ul {
+  display: inline-flex;
+  list-style: none;
+  padding-left: 200px;
+  padding-right: 30px;
+}
+
+.main_nav ul li {
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-family: "Calibri Light";
+}
+
+.logo {
+  color: #fff;
+  display: inline-flex;
+  font-family: "Myriad pro";
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 200px;
+  padding-bottom: 0;
+}
+
+/* THE BODY STYLING BEGINS HERE:
+   // section one
+*/
+.section_one {
+  float: left;
+  background-color: #c2ede7;
+  text-align: center;
+  font-family: "Calibri Light";
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 376px;
+}
+
+#language {
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #c2ede7;
+  color: rgb(29, 65, 37);
+}
+.phones_images {
+  float: left;
+}
+
+.phones_images img {
+  width: 130px;
+  height: 220px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.andriod_text {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  width: 80px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+.iphone_text {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  width: 80px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+.visit_text {
+  clear: both;
+}
+
+/* THE BODY STYLING BEGINS HERE:
+   // section two
+*/
+
+.section_two {
+  float: right;
+  background-color: #fcf2cc;
+  font-family: "Calibri Light";
+  text-align: center;
+  padding: 50px;
+}
+
+.laptop_text {
+  /* the laptop text was hidden here */
+  display: none;
+}
+
+.faint_text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(172, 172, 172);
+}
+
+.btn {
+  background-color: rgb(30, 190, 165);
+  margin-top: 35px;
+  padding: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: rgb(30, 190, 165);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* THE BODY STYLING BEGINS HERE:
+   // section one and section two
+*/
+.section_one a,
+.section_two a {
+  text-decoration: none;
+  color: rgb(30, 190, 165);
+}
+
+.section_one a:hover,
+.section_two a:hover {
+  color: rgb(91, 3, 255);
+}
+
+.text_heading1 {
+  color: rgb(24, 14, 14);
+  font-family: monospace;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text_heading2 {
+  display: block;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+/* THE FOOTER STYLING START HERE */
+
+footer {
+  clear: both;
+}
+
+.footer_features {
+  float: left;
+  width: 100%;
+  background-color: rgb(1, 14, 51);
+  color: #fff;
+  font-family: "Calibri Light";
+  padding-left: 80px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+}
+
+.footer_features div ul {
+  float: none;
+  list-style: none;
+  padding-left: 80px;
+}
+
+.footer_features div {
+  float: left;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: rgb(30, 190, 165);
+  text-decoration: none;
+  cursor: pointer;
+}
+/*
+  //////  Sub_Footer Styling:
+*/
+
+.footer_sub_menu {
+  color: rgb(30, 190, 165);
+  font-family: monospace;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 4px;
+}
+.sub_footer {
+  background-color: rgb(1, 9, 31);
+  color: rgb(30, 190, 165);
+  clear: both;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Calibri Light";
+  padding-left: 160px;
+}
+
+.footer_terms {
+  padding-left: 30px;
+}
